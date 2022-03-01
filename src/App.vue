@@ -4,7 +4,17 @@
     <router-link to="/about">About</router-link>
   </nav>
   <router-view/>
+  <div class="bg-red-500">hi</div>
 </template>
+
+<script>
+import './assets/tailwind.css'
+
+export default {
+    name: 'App',
+
+}
+</script>
 
 <style>
 #app {
